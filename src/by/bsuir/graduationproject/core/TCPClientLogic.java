@@ -14,7 +14,7 @@ public final class TCPClientLogic {
     public static String run(String message) throws IOException {
         Socket clientSocket = null;
         try {
-            clientSocket = new Socket("192.198.0.1", 6789);
+            clientSocket = new Socket("localhost", 6789);
         } catch (ConnectException e) {
             JOptionPane.showMessageDialog(null, GUIConstants.CONNECTION_REFUSED_ERROR_MESSAGE);
         }
