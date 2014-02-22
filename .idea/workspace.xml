@@ -7,11 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63e9c82-c64b-4a70-bfaf-2fc4e2abc930" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/bg_image.jpg" afterPath="$PROJECT_DIR$/src/resources/bg_image.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/run.png" afterPath="$PROJECT_DIR$/src/resources/run.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java" afterPath="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java" afterPath="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SocketClient.iws" />
@@ -120,7 +115,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21539">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19142">
               <folding />
             </state>
           </provider>
@@ -196,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -650,12 +646,17 @@
       <workItem from="1392919972133" duration="4597000" />
       <workItem from="1392987959202" duration="277000" />
       <workItem from="1393087096274" duration="6783000" />
-      <workItem from="1393094312597" duration="985000" />
+      <workItem from="1393094312597" duration="1030000" />
     </task>
+    <task id="LOCAL-00001" summary="UI implementation.">
+      <created>1393095666953</created>
+      <updated>1393095666953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18991000" />
+    <option name="totallyTimeSpent" value="19036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -705,6 +706,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="UI implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="UI implementation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
