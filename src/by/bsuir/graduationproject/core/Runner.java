@@ -1,6 +1,6 @@
 package by.bsuir.graduationproject.core;
 
-import by.bsuir.rts.graduationproject.gui.MainFrame;
+import by.bsuir.graduationproject.gui.MainFrame;
 
 import java.io.IOException;
 

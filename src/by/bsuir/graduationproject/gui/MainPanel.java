@@ -1,7 +1,7 @@
-package by.bsuir.rts.graduationproject.gui;
+package by.bsuir.graduationproject.gui;
 
-import by.bsuir.rts.graduationproject.gui.builder.MainPanelContentBuilder;
-import by.bsuir.rts.graduationproject.gui.util.GUIConstants;
+import by.bsuir.graduationproject.gui.builder.MainPanelContentBuilder;
+import by.bsuir.graduationproject.gui.util.GUIConstants;
 
 import javax.swing.*;
 import java.awt.*;

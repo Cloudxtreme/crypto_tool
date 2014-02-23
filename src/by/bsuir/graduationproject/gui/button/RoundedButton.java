@@ -1,6 +1,6 @@
-package by.bsuir.rts.graduationproject.gui.button;
+package by.bsuir.graduationproject.gui.button;
 
-import by.bsuir.rts.graduationproject.gui.util.GUIConstants;
+import by.bsuir.graduationproject.gui.util.GUIConstants;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

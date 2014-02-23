@@ -7,7 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63e9c82-c64b-4a70-bfaf-2fc4e2abc930" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/ClientConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\MainFrame.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainFrame.java" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\MainPanel.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\builder\Builder.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/Builder.java" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\builder\MainPanelContentBuilder.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\button\RoundedButton.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/button/RoundedButton.java" />
+      <change type="MOVED" beforePath="D:\dev\study\SocketClient\src\by\bsuir\rts\graduationproject\gui\util\GUIConstants.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java" />
     </list>
     <ignored path="SocketClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,84 +89,88 @@
       <file leaf-file-name="TCPClientLogic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
+            <state line="32" column="86" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="612">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="37" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUIConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="126" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg_image.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/bg_image.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/run.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Builder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/Builder.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPanelContentBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="60" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1666">
+            <state line="8" column="17" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RoundedButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/button/RoundedButton.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/button/RoundedButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="70" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2941">
+            <state line="15" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUIConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="44" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPanelContentBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="28" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientConstants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/ClientConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="66" selection-start="228" selection-end="228" vertical-scroll-proportion="0.36615384" vertical-offset="0" max-vertical-offset="325">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -187,11 +201,21 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainPanel.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/button/RoundedButton.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/ClientConstant.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/ClientConstants.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/Builder.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/button/RoundedButton.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java" />
+        <option value="$PROJECT_DIR$/src/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/ClientConstants.java" />
       </list>
     </option>
   </component>
@@ -230,7 +254,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,12 +282,157 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduationproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduationproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduationproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="button" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduationproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduationproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,12 +457,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocketServer" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\study\SocketClient\src\by\bsuir\graduationproject\gui\util" />
       <recent name="D:\dev\study\SocketClient\src\resources" />
       <recent name="D:\dev\study\SocketClient\src\static" />
     </key>
@@ -646,17 +815,24 @@
       <workItem from="1392919972133" duration="4597000" />
       <workItem from="1392987959202" duration="277000" />
       <workItem from="1393087096274" duration="6783000" />
-      <workItem from="1393094312597" duration="1030000" />
+      <workItem from="1393094312597" duration="1045000" />
+      <workItem from="1393157456048" duration="1821000" />
+      <workItem from="1393159302967" duration="1967000" />
+      <workItem from="1393161737265" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="UI implementation.">
       <created>1393095666953</created>
       <updated>1393095666953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UI implementation.&#10;">
+      <created>1393095694340</created>
+      <updated>1393095694340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19036000" />
+    <option name="totallyTimeSpent" value="24282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -707,7 +883,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="UI implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="UI implementation." />
+    <MESSAGE value="UI implementation.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI implementation.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,23 +894,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="95" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+        <state line="20" column="11" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -741,27 +904,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.6.0_25/src.zip!/java/awt/Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="864" column="28" selection-start="40087" selection-end="40087" vertical-scroll-proportion="0.0" vertical-offset="14688" max-vertical-offset="21165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="113" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="986">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
@@ -778,44 +920,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.6.0_25/src.zip!/java/awt/Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="864" column="28" selection-start="40087" selection-end="40087" vertical-scroll-proportion="0.0" vertical-offset="14688" max-vertical-offset="21165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="113" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="986">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
@@ -924,25 +1031,6 @@
         <state line="1361" column="48" selection-start="49059" selection-end="49059" vertical-scroll-proportion="0.3705357" vertical-offset="22223" max-vertical-offset="26061" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.6.0_25/src.zip!/javax/swing/JTextField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="368" column="16" selection-start="13301" selection-end="13301" vertical-scroll-proportion="0.67410713" vertical-offset="5580" max-vertical-offset="15691">
@@ -967,41 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/builder/MainPanelContentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="60" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/button/RoundedButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="70" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/bg_image.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1012,16 +1065,86 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/rts/graduationproject/gui/util/GUIConstants.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="126" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="952">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21539">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21539">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="44" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/button/RoundedButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="28" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="86" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/ClientConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="66" selection-start="228" selection-end="228" vertical-scroll-proportion="0.36615384" vertical-offset="0" max-vertical-offset="325">
           <folding />
         </state>
       </provider>

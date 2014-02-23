@@ -1,4 +1,4 @@
-package by.bsuir.rts.graduationproject.gui.builder;
+package by.bsuir.graduationproject.gui.builder;
 
 import javax.swing.*;
 import java.io.IOException;

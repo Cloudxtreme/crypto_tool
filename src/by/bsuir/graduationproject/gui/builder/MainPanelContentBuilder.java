@@ -1,8 +1,9 @@
-package by.bsuir.rts.graduationproject.gui.builder;
+package by.bsuir.graduationproject.gui.builder;
 
 import by.bsuir.graduationproject.core.TCPClientLogic;
-import by.bsuir.rts.graduationproject.gui.button.RoundedButton;
-import by.bsuir.rts.graduationproject.gui.util.GUIConstants;
+import by.bsuir.graduationproject.gui.button.RoundedButton;
+import by.bsuir.graduationproject.gui.util.ClientConstants;
+import by.bsuir.graduationproject.gui.util.GUIConstants;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -81,7 +82,8 @@ public class MainPanelContentBuilder implements Builder {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String modifiedMessage = TCPClientLogic.run(firstField.getText());
+                    String modifiedMessage = TCPClientLogic.run(firstField.getText() +
+                            ClientConstants.VECTORS_SEPARATOR + secondField.getText());
                     JOptionPane.showMessageDialog(null, modifiedMessage);
                 } catch (IOException e1) {
                     e1.printStackTrace();

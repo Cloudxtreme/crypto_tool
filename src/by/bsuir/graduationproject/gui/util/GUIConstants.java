@@ -1,4 +1,4 @@
-package by.bsuir.rts.graduationproject.gui.util;
+package by.bsuir.graduationproject.gui.util;
 
 import javax.swing.*;
 import javax.swing.border.Border;
