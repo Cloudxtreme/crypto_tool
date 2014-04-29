@@ -12,6 +12,8 @@ import java.awt.Font;
 public final class ReportKeys {
     public static final String FULL_REPORT_PATH = "full.report.path";
     public static final String FULL_REPORT_TEMPLATE_PATH = "full.report.template.path";
+    public static final String ENTER_PASSWORD = "enter.password";
+    public static final String INVALID_PASSWORD = "invalid.password";
 
     private ReportKeys() {
     }

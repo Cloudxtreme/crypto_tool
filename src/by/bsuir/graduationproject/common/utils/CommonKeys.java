@@ -17,4 +17,7 @@ public class CommonKeys {
     public static final String XLS = "xls";
     public static final String BACKSLASH = "/";
     public static final String EXPERIMENT = "experiment";
+    public static final String EXIT_PASSWORD = "exit.password";
+    public static final String FOLLOWING_FIELDS_NOT_VALID = "following.fields.not.valid";
+    public static final String NEW_LINE = "\n";
 }

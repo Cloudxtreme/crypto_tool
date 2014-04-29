@@ -26,7 +26,7 @@ public class RegistrationPanel extends JPanel implements GUIComponent, Container
     private RegistrationGroupNumberField groupNumberField;
     private RegisterButton registerButton;
 
-    private static RegistrationController controller = new RegistrationController();
+    private RegistrationController controller = new RegistrationController();
 
     public RegistrationPanel() {
         super(null);

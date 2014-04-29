@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 public class RegistrationFirstNameField extends JTextField implements GUIComponent {
 
     public RegistrationFirstNameField() {
+        super(15);
         build();
     }
 

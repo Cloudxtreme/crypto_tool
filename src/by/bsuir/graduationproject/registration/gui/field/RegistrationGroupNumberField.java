@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 public class RegistrationGroupNumberField extends JTextField implements GUIComponent {
 
     public RegistrationGroupNumberField() {
+        super(6);
         build();
     }
 

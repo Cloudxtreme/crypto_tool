@@ -4,11 +4,13 @@ import by.bsuir.graduationproject.common.gui.component.Container;
 import by.bsuir.graduationproject.common.gui.component.GUIComponent;
 import by.bsuir.graduationproject.common.utils.CommonKeys;
 import by.bsuir.graduationproject.core.session.InternalSession;
+import by.bsuir.graduationproject.report.controller.ReportController;
 import by.bsuir.graduationproject.report.gui.panel.ReportPanel;
 import by.bsuir.graduationproject.report.gui.utils.ReportKeys;
 
 import javax.swing.JFrame;
-import javax.swing.WindowConstants;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * @author l.zverugo Date: 26.04.14 Time: 20:30.
@@ -16,6 +18,7 @@ import javax.swing.WindowConstants;
 public class ReportFrame extends JFrame implements GUIComponent, Container {
     private String time = CommonKeys.BLANK;
     private InternalSession session;
+    private ReportController controller = new ReportController();
 
     public ReportFrame(String time, InternalSession session) {
         super(ReportKeys.REPORT_FRAME_NAME);
@@ -42,8 +45,13 @@ public class ReportFrame extends JFrame implements GUIComponent, Container {
 
     @Override
     public void setComponentSpecificAttributes() {
-        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setResizable(false);
+        this.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                controller.handleCloseApplicationAction(e);
+            }
+        });
     }
 
     @Override

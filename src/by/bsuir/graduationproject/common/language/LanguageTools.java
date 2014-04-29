@@ -13,7 +13,9 @@ import java.util.Properties;
 public final class LanguageTools {
     private LanguageTools() {
     }
+
     private static final Properties LANGUAGE_PROPERTIES;
+
     static {
         LANGUAGE_PROPERTIES = new Properties();
         try {
