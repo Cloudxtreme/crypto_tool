@@ -3,7 +3,8 @@ package by.bsuir.graduationproject.gui;
 import by.bsuir.graduationproject.gui.util.GUIConstants;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 import java.io.File;
 import java.io.IOException;
 
@@ -11,7 +12,6 @@ import java.io.IOException;
  * @author l.zverugo
  */
 public class MainFrame extends JFrame {
-
     public MainFrame() throws IOException {
         super();
         initialize();

@@ -1,6 +1,5 @@
-package by.bsuir.graduationproject.core; /**
- * @author l.zverugo
- */
+package by.bsuir.graduationproject.core;
+
 import by.bsuir.graduationproject.gui.util.ClientConstants;
 import by.bsuir.graduationproject.gui.util.GUIConstants;
 
@@ -9,6 +8,9 @@ import java.io.*;
 import java.net.*;
 import java.util.Properties;
 
+/**
+ * @author l.zverugo
+ */
 public final class TCPClientLogic {
     private TCPClientLogic() {
     }
