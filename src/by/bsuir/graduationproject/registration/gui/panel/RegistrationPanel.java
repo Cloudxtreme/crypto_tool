@@ -14,6 +14,8 @@ import by.bsuir.graduationproject.registration.gui.label.RegistrationLastNameLab
 import by.bsuir.graduationproject.registration.gui.utils.RegistrationKeys;
 
 import javax.swing.JPanel;
+import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -26,10 +28,13 @@ public class RegistrationPanel extends JPanel implements GUIComponent, Container
     private RegistrationGroupNumberField groupNumberField;
     private RegisterButton registerButton;
 
+    private Image bgImage;
+
     private RegistrationController controller = new RegistrationController();
 
-    public RegistrationPanel() {
+    public RegistrationPanel(Image bgImage) {
         super(null);
+        this.bgImage = bgImage;
         build();
     }
 
@@ -103,9 +108,19 @@ public class RegistrationPanel extends JPanel implements GUIComponent, Container
             @Override
             public void actionPerformed(ActionEvent e) {
                 controller.handleRegisterEvent(firstNameField.getText(), lastNameField.getText(),
-                        groupNumberField.getText());
+                        groupNumberField.getText(), getCurrentInstance());
             }
         });
         this.add(registerButton);
+    }
+
+    private RegistrationPanel getCurrentInstance() {
+        return this;
+    }
+
+    @Override
+    public void paint(Graphics graphics) {
+        super.paint(graphics);
+        graphics.drawImage(bgImage, 0, 0, null);
     }
 }

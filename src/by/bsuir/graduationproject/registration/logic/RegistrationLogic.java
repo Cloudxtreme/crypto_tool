@@ -6,6 +6,7 @@ import by.bsuir.graduationproject.common.validator.impl.NumberFieldValidator;
 import by.bsuir.graduationproject.common.validator.impl.TextFieldValidator;
 import by.bsuir.graduationproject.core.session.InternalSession;
 import by.bsuir.graduationproject.core.user.User;
+import by.bsuir.graduationproject.registration.gui.panel.RegistrationPanel;
 import by.bsuir.graduationproject.registration.gui.utils.RegistrationKeys;
 
 import javax.swing.JOptionPane;
@@ -17,14 +18,14 @@ public class RegistrationLogic {
     private TextFieldValidator textFieldValidator = new TextFieldValidator();
     private NumberFieldValidator numberFieldValidator = new NumberFieldValidator();
 
-    public void processRegisterRequest(String firstName, String lastName, String groupNumber) {
+    public void processRegisterRequest(String firstName, String lastName, String groupNumber, RegistrationPanel panel) {
         StringBuilder errors = new StringBuilder();
 
         validateFirstName(firstName, errors);
         validateLastName(lastName, errors);
         validateGroupNumber(groupNumber, errors);
 
-        completeRequest(errors, firstName, lastName, groupNumber);
+        completeRequest(errors, firstName, lastName, groupNumber, panel);
     }
 
     private void validateFirstName(String firstName, StringBuilder errors) {
@@ -58,10 +59,12 @@ public class RegistrationLogic {
         }
     }
 
-    private void completeRequest(StringBuilder errors, String firstName, String lastName, String groupNumber) {
+    private void completeRequest(StringBuilder errors, String firstName, String lastName, String groupNumber,
+                                 RegistrationPanel panel) {
         if (errors.length() > 0) {
-            JOptionPane.showMessageDialog(null, errors.toString(), RegistrationKeys.REGISTRATION_FRAME_NAME,
+            JOptionPane.showMessageDialog(panel, errors.toString(), RegistrationKeys.REGISTRATION_FRAME_NAME,
                     JOptionPane.ERROR_MESSAGE);
+            panel.repaint();
         } else {
 
         }

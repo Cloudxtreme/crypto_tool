@@ -7,24 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63e9c82-c64b-4a70-bfaf-2fc4e2abc930" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/NumberFieldValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/utils/PasswordChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/TextFieldValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/Validator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/language/LanguageTools.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/language/LanguageTools.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationFirstNameField.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationFirstNameField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationGroupNumberField.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationGroupNumberField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationLastNameField.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationLastNameField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/controller/ReportController.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/controller/ReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/frame/ReportFrame.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/frame/ReportFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/utils/ReportKeys.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/utils/ReportKeys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/logic/ReportLogic.java" afterPath="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/logic/ReportLogic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/application.properties" afterPath="$PROJECT_DIR$/src/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/ru.language.properties" afterPath="$PROJECT_DIR$/src/resources/ru.language.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SocketClient.iws" />
@@ -94,28 +82,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextFieldValidator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/TextFieldValidator.java">
+      <file leaf-file-name="MainPanelContentBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state line="15" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberFieldValidator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/NumberFieldValidator.java">
+      <file leaf-file-name="RegistrationPanel.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <folding />
+            <state line="125" column="49" selection-start="4102" selection-end="4102" vertical-scroll-proportion="2.2477064" vertical-offset="1101" max-vertical-offset="1955">
+              <folding>
+                <element signature="e#3535#3833#0" expanded="true" />
+                <element signature="e#3822#3823#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationLogic.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegistrationController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationLogic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2676" selection-end="2676" vertical-scroll-proportion="3.5351682" vertical-offset="0" max-vertical-offset="1360">
+            <state line="66" column="28" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1411">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,68 +125,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/user/User.java">
+      <file leaf-file-name="MainPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <element signature="e#471#472#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationFirstNameField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationFirstNameField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="15" column="11" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationGroupNumberField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationGroupNumberField.java">
+      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="15" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="25" column="109" selection-start="812" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationLastNameField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationLastNameField.java">
+      <file leaf-file-name="GUIConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="37" column="83" selection-start="2010" selection-end="2026" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportLogic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/report/logic/ReportLogic.java">
+      <file leaf-file-name="RegistrationFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="100" selection-start="3745" selection-end="3745" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1785">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ru.language.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/ru.language.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="49" column="35" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationKeys.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/utils/RegistrationKeys.java">
+      <file leaf-file-name="GUITools.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/GUITools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="52" selection-start="2535" selection-end="2556" vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1649">
+            <state line="7" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonKeys.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="70" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -216,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/panel/ReportPlotPanel.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/component/Panel.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/component/Container.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/panel/PlotPanel.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/painter/AxisPainter.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/utils/RegistrationKeys.java" />
@@ -243,17 +231,18 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/utils/ReportKeys.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/report/logic/ReportLogic.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/language/LanguageTools.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationFirstNameField.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationGroupNumberField.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/field/RegistrationLastNameField.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/Validator.java" />
         <option value="$PROJECT_DIR$/src/resources/ru.language.properties" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/NumberFieldValidator.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/impl/TextFieldValidator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java" />
       </list>
     </option>
   </component>
@@ -364,36 +353,6 @@
               <option name="myItemId" value="graduationproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -466,10 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,34 +483,8 @@
               <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="field" />
+              <option name="myItemId" value="frame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,132 +611,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="session" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduationproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1011,9 +814,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\study\SocketClient\src\resources" />
       <recent name="D:\dev\study\SocketClient\src\by\bsuir\graduationproject\report\logic" />
       <recent name="D:\dev\study\SocketClient\src\by\bsuir\graduationproject\gui\util" />
-      <recent name="D:\dev\study\SocketClient\src\resources" />
       <recent name="D:\dev\study\SocketClient\src\static" />
     </key>
   </component>
@@ -1330,7 +1133,7 @@
       <workItem from="1398520243687" duration="14664000" />
       <workItem from="1398591715445" duration="597000" />
       <workItem from="1398669725568" duration="426000" />
-      <workItem from="1398763013521" duration="17840000" />
+      <workItem from="1398763013521" duration="20433000" />
     </task>
     <task id="LOCAL-00001" summary="UI implementation.">
       <created>1393095666953</created>
@@ -1352,11 +1155,15 @@
       <created>1398779188689</created>
       <updated>1398779188689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Logic implementation.&#10;">
+      <created>1398784767951</created>
+      <updated>1398784767951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62076000" />
+    <option name="totallyTimeSpent" value="64669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1440,49 +1247,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/label/RegistrationLastNameLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/TestRegistrationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/component/GUIComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/component/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="35" selection-start="5201" selection-end="5201" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="15402" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="21" selection-start="13984" selection-end="13984" vertical-scroll-proportion="0.3325527" vertical-offset="5564" max-vertical-offset="82042" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/report/gui/label/ReportTimeLabel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="42" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
@@ -1495,13 +1259,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="0" selection-start="4823" selection-end="4823" vertical-scroll-proportion="0.33260393" vertical-offset="1888" max-vertical-offset="7191">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
@@ -1519,13 +1276,6 @@
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/ClientConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="67" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -1611,11 +1361,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/bg_image.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/javax/swing/JPasswordField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="25" selection-start="2523" selection-end="2537" vertical-scroll-proportion="0.33260393" vertical-offset="732" max-vertical-offset="10778">
@@ -1697,13 +1442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/validator/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="29" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -1721,27 +1459,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5569" column="26" selection-start="196011" selection-end="196011" vertical-scroll-proportion="0.8700234" vertical-offset="93488" max-vertical-offset="119204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -1813,11 +1530,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/bg_image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/TCPClientLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2676" selection-end="2676" vertical-scroll-proportion="3.5351682" vertical-offset="0" max-vertical-offset="1360">
+        <state line="36" column="8" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/core/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/gui/GUITools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/util/GUIConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="83" selection-start="2010" selection-end="2026" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/common/utils/CommonKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="70" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/builder/MainPanelContentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="109" selection-start="812" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/frame/RegistrationFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/logic/RegistrationLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="28" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1411">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/graduationproject/registration/gui/panel/RegistrationPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="49" selection-start="4102" selection-end="4102" vertical-scroll-proportion="2.2477064" vertical-offset="1101" max-vertical-offset="1955">
+          <folding>
+            <element signature="e#3535#3833#0" expanded="true" />
+            <element signature="e#3822#3823#0" expanded="true" />
           </folding>
         </state>
       </provider>
