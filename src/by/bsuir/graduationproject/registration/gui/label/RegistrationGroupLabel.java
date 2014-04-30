@@ -32,6 +32,6 @@ public class RegistrationGroupLabel extends JLabel implements GUIComponent {
     public void setComponentSpecificAttributes() {
         this.setText(RegistrationKeys.GROUP_LABEL_TEXT);
         this.setFont(RegistrationKeys.GROUP_LABEL_FONT);
-        this.setForeground(RegistrationKeys.REGISTRATION_PANEL_FOREGROUND_TEXT_COLOR);
+        this.setForeground(RegistrationKeys.REGISTRATION_FRAME_FOREGROUND_TEXT_COLOR);
     }
 }

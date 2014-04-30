@@ -1,6 +1,6 @@
 package by.bsuir.graduationproject.registration.controller;
 
-import by.bsuir.graduationproject.registration.gui.panel.RegistrationPanel;
+import by.bsuir.graduationproject.registration.gui.frame.RegistrationFrame;
 import by.bsuir.graduationproject.registration.logic.RegistrationLogic;
 
 /**
@@ -9,7 +9,7 @@ import by.bsuir.graduationproject.registration.logic.RegistrationLogic;
 public class RegistrationController {
     private RegistrationLogic logic = new RegistrationLogic();
 
-    public void handleRegisterEvent(String firstName, String lastName, String groupNumber, RegistrationPanel panel) {
-        logic.processRegisterRequest(firstName, lastName, groupNumber, panel);
+    public void handleRegisterEvent(String firstName, String lastName, String groupNumber, RegistrationFrame frame) {
+        logic.processRegisterRequest(firstName, lastName, groupNumber, frame);
     }
 }

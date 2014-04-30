@@ -31,5 +31,8 @@ public class RegisterButton extends JButton implements GUIComponent {
     @Override
     public void setComponentSpecificAttributes() {
         this.setText(RegistrationKeys.REGISTRATION_BUTTON_LABEL);
+        this.setForeground(RegistrationKeys.REGISTRATION_FRAME_FOREGROUND_TEXT_COLOR);
+        this.setFont(RegistrationKeys.REGISTRATION_BUTTON_FONT);
+        this.setFocusPainted(false);
     }
 }

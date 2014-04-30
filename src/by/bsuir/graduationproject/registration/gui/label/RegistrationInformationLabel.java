@@ -31,7 +31,7 @@ public class RegistrationInformationLabel extends JLabel implements GUIComponent
     @Override
     public void setComponentSpecificAttributes() {
         this.setText(RegistrationKeys.REGISTRATION_INFORMATION_LABEL_TEXT);
-        this.setForeground(RegistrationKeys.REGISTRATION_PANEL_FOREGROUND_TEXT_COLOR);
+        this.setForeground(RegistrationKeys.REGISTRATION_FRAME_FOREGROUND_TEXT_COLOR);
         this.setFont(RegistrationKeys.REGISTRATION_INFORMATION_LABEL_FONT);
     }
 }

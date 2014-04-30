@@ -31,7 +31,7 @@ public class RegistrationLastNameLabel extends JLabel implements GUIComponent {
     @Override
     public void setComponentSpecificAttributes() {
         this.setText(RegistrationKeys.LAST_NAME_LABEL_TEXT);
-        this.setForeground(RegistrationKeys.REGISTRATION_PANEL_FOREGROUND_TEXT_COLOR);
+        this.setForeground(RegistrationKeys.REGISTRATION_FRAME_FOREGROUND_TEXT_COLOR);
         this.setFont(RegistrationKeys.LAST_NAME_LABEL_FONT);
     }
 }

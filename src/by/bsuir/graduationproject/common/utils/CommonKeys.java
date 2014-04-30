@@ -20,5 +20,5 @@ public class CommonKeys {
     public static final String EXIT_PASSWORD = "exit.password";
     public static final String FOLLOWING_FIELDS_NOT_VALID = "following.fields.not.valid";
     public static final String NEW_LINE = "\n";
-    public static final String BG_IMAGE_PATH = "src/resources/bg.png";
+    public static final String BG_IMAGE_PATH = "src/resources/background_image.png";
 }
