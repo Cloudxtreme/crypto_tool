@@ -21,4 +21,6 @@ public class CommonKeys {
     public static final String FOLLOWING_FIELDS_NOT_VALID = "following.fields.not.valid";
     public static final String NEW_LINE = "\n";
     public static final String BG_IMAGE_PATH = "src/resources/background_image.png";
+    public static final String REPORT_BUTTON_IMAGE_PATH = "src/resources/report_image.png";
+    public static final String MS_EXCEL_SYSTEM_PATH = "ms.excel.system.path";
 }

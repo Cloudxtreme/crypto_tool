@@ -49,5 +49,4 @@ public final class ReportKeys {
     public static final int FULL_REPORT_BUTTON_Y_POSITION = GUITools.getRelativeValue(REPORT_FRAME_HEIGHT, 69);
     public static final int FULL_REPORT_BUTTON_WIDTH = 60;
     public static final int FULL_REPORT_BUTTON_HEIGHT = 60;
-    public static final String FULL_REPORT_BUTTON_TEXT = LanguageTools.translate("open.full.report");
 }

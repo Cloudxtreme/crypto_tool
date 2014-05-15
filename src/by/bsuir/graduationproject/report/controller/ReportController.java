@@ -11,8 +11,8 @@ import java.awt.event.WindowEvent;
 public class ReportController {
     private static ReportLogic logic = new ReportLogic();
 
-    public void handleFullReportAction(InternalSession session) {
-        logic.processFullReportAction(session);
+    public void handleShowFullReportAction(InternalSession session) {
+        logic.processShowFullReportAction(session);
     }
 
     public void handleCloseApplicationAction(WindowEvent e) {

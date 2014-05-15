@@ -87,7 +87,7 @@ public class ReportFrame extends JFrame implements GUIComponent, Container {
         fullReportButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                controller.handleFullReportAction(session);
+                controller.handleShowFullReportAction(session);
             }
         });
         this.add(fullReportButton);

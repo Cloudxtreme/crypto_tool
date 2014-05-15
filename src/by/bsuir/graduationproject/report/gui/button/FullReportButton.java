@@ -1,6 +1,7 @@
 package by.bsuir.graduationproject.report.gui.button;
 
 import by.bsuir.graduationproject.common.gui.component.GUIComponent;
+import by.bsuir.graduationproject.common.utils.CommonKeys;
 import by.bsuir.graduationproject.report.gui.utils.ReportKeys;
 
 import javax.swing.ImageIcon;
@@ -31,8 +32,7 @@ public class FullReportButton extends JButton implements GUIComponent {
 
     @Override
     public void setComponentSpecificAttributes() {
-//        this.setText(ReportKeys.FULL_REPORT_BUTTON_TEXT);
         this.setFocusPainted(false);
-        this.setIcon(new ImageIcon("src/resources/report_image.png"));
+        this.setIcon(new ImageIcon(CommonKeys.REPORT_BUTTON_IMAGE_PATH));
     }
 }
